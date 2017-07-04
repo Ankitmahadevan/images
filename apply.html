@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>on experment
+</title>
+<script type="text/javascript">
+
+var image_tracker='f';
+
+function change(){
+var image=document.getElementById("teto");
+if(image_tracker=='f'){
+image.src="https://happydiwali998.files.wordpress.com/2017/01/promise-day-special-quotes-messages-promises-on-valentine-week-2017-6.jpg";
+image_tracker='t';
+}
+else if(image_tracker=='t')
+{
+
+  image.src="https://i.ytimg.com/vi/HGx7q4O6w2w/maxresdefault.jpg";
+  image_tracker='p';
+  }
+  else if(image_tracker=='p')
+{
+
+  image.src="http://thisweeklive.com/wp-content/uploads/2017/01/Beautiful-Valentines-Day-Wallpapers.jpg";
+  image_tracker='lp';
+  }
+  
+    else if(image_tracker=='lp')
+{
+
+  image.src="http://www.desispy.com/wp-content/uploads/2016/02/Happy-Valentines%E2%80%99-Day-Images-pictures-wallpapers-21.jpg";
+  image_tracker='bp';
+  }
+     else if(image_tracker=='bp')
+{
+
+  image.src="http://images.indianexpress.com/2017/02/batch_valentines-butter-cookies.jpg";
+  image_tracker='cp';
+  }
+      else if(image_tracker=='cp')
+{
+
+  image.src="https://i.ytimg.com/vi/1Bn5czrVOPE/maxresdefault.jpg";
+  image_tracker='dp';
+  }
+        else if(image_tracker=='dp')
+{
+
+  image.src="https://scontent-sin6-1.xx.fbcdn.net/v/t31.0-8/14882247_1807701952845067_6677280760769221298_o.jpg?oh=275462f3d3f84b311042ade8f6ddc4ae&oe=5A04625A";
+  image_tracker='ep';
+  }
+  
+  
+else
+{
+image.src="http://i.ndtvimg.com/i/2017-02/valentine-day_650x400_41486951804.jpg";
+image_tracker='f';
+}
+}
+setInterval('change()',1000);
+
+
+
+
+</script>
+
+</head>
+<body>
+<img id="teto" src="http://i.ndtvimg.com/i/2017-02/valentine-day_650x400_41486951804.jpg" width="100%" height="100%"  onclick="change()"></img>
+
+
+</body>
+</html>
